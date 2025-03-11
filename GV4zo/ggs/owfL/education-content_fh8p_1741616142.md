@@ -15,7 +15,6 @@ Disclaimer: The code in this project may include calls to APIs (“API Calls”)
  that governs this project grant any rights in or to any External Products,or
  alter, expand or supersede any terms of the applicable additional agreements.
  If you have a valid license agreement with SAP for the use of a particular SAP
- External Product, then you may make use of any API Calls included in this
  project’s code for that SAP External Product, subject to the terms of such
  license agreement. If you do not have a valid license agreement for the use of
  a particular SAP External Product, then you may only make use of any API Calls
