@@ -19,7 +19,6 @@ matrix:
       dist: focal
       arch: arm64-graviton2
       group: edge
-      virt: vm
 
 
 jdk:
