@@ -1,0 +1,47 @@
+########
+# AI SERVICES
+########
+LLM_MODEL_NAME=gpt-4o
+# OpenAI
+OPENAI_API_KEY= 
+# Azure Text to Speech
+MS_SPEECH_ENDPOINTY=
+SPEECH_KEY=
+SPEECH_REGION=
+# Fish TTS
+FISH_API_KEY=
+# Deepgram Speech to Text
+DG_API_KEY=
+# Huggingface
+HF_EMOTION_API_URL=https://api-inference.huggingface.co/models/SamLowe/roberta-base-go_emotions
+HF_ACCESS_TOKEN=
+
+# Below 2 lines are optional
+AZURE_OPENAI_ENDPOINT=
+AZURE_OPENAI_API_KEY=
+
+
+########
+# DATABASE
+########
+
+NEXT_PUBLIC_SUPABASE_URL=http://host.docker.internal:54321
+NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS1kZW1vIiwicm9sZSI6ImFub24iLCJleHAiOjE5ODM4MTI5OTZ9.CRXP1A7WOeoJeXxjNni43kdQwgnWNReilDMblYTn_I0
+JWT_SECRET_KEY=m5wBG3iz5clF9jhm+RdlsX7/YuSQv3lJ43xuCK/rSYNhZGbaiMA3Z+P/OvPDr3fpcKUAllID16rHQBcuc3xBxw==
+
+########
+# BACKEND
+########
+
+CELERY_BROKER_URL=redis://redis:6379/0
+CELERY_RESULT_BACKEND=redis://redis:6379/0
+CELERY_FLOWER_USER=admin
+CELERY_FLOWER_PASSWORD=admin
+
+########
+# FRONTEND
+########
+
+NEXT_PUBLIC_BACKEND_URL=http://localhost:8000
+# Optional for OAuth
+GOOGLE_OAUTH=False
