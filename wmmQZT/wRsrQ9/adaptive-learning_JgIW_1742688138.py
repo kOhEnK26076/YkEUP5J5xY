@@ -13,7 +13,6 @@ def fast_hist(a, b, n):
 def per_class_iu(hist):
     return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
 
-
 def label_mapping(input, mapping):
     output = np.copy(input)
     for ind in range(len(mapping)):
