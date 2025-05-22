@@ -1,5 +1,0 @@
-
-reviewers:
-  - pamenon
-approvers:
-  - pamenon
