@@ -27,7 +27,6 @@ Type "docker compose up elasticsearch -d"
 Enter
 Sleep 20s
 Type "docker compose down"
-Enter
 Sleep 6s
 Ctrl+L
 # END - Reset to clean state
