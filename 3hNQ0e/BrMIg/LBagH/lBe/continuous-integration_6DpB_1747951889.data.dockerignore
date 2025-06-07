@@ -1,7 +1,6 @@
 *.sqlite
 *.sqlite3
 web/node_modules
-web/dist
 release
 coverage.out
 *.rsa
